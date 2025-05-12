@@ -2,8 +2,8 @@
 
 An interactive tool designed to visualize and explain the complex, often hostile and suppressive, relationships between the major races within a specific dark fantasy tabletop roleplaying setting.
 
-**[► View Live Demo](https://<your-github-username>.github.io/<your-repository-name>/)**
-*(Replace the link above with your actual GitHub Pages URL!)*
+**[► View Live Demo](https://spirr2.github.io/Dark-Fantasy-Race-Relations/)**
+
 
 ## Overview
 
