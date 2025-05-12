@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Relations Explainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Races</h2>
+            <ul id="raceList">
+                <!-- Races will be populated here by JavaScript -->
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h1>Dark Fantasy Race Relations</h1>
+
+            <div class="selectors">
+                <div class="selector-group">
+                    <label for="raceA">Select Race A:</label>
+                    <select id="raceA">
+                        <option value="">-- Select Race --</option>
+                        <!-- Options populated by JS -->
+                    </select>
+                </div>
+                <div class="arrow">➔</div>
+                <div class="selector-group">
+                    <label for="raceB">Select Race B:</label>
+                    <select id="raceB">
+                        <option value="">-- Select Race --</option>
+                        <!-- Options populated by JS -->
+                    </select>
+                </div>
+            </div>
+
+            <div id="relationshipDescription" class="description-box">
+                <p>Select two different races from the dropdowns to see their relationship, or click a race in the sidebar to see its general disposition towards others.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="relations-data.js"></script> <!-- We'll put the data in a separate file -->
+    <script src="script.js"></script>
+</body>
+</html>
