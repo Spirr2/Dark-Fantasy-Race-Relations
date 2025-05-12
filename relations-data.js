@@ -65,17 +65,17 @@ const RELATIONS = {
     "Half-Elves": {
         "Humans":     { status: 'N', description: "Half-Elves strive for acceptance within human society but are often met with suspicion, pity, or are never fully seen as equals. They navigate a precarious social standing." },
         "Elves":      { status: 'N', description: "Half-Elves yearn for acceptance from their elven kin but frequently face disdain, exclusion, or are treated as reminders of impurity. Full integration is exceptionally rare." },
-        "Dwarves":    { status: 'N', description: "Dwarves judge Half-Elves individually. Their practicality means a useful Half-Elf might be accepted, but trust is hard-won and suspicion of their 'flighty' elven side lingers." },
+        "Dwarves":    { status: 'N', description: "Half-Elves see Dwarves as gruff and suspicious, but potentially fair if one can prove their worth through deeds and reliability." },
         "Halflings":  { status: 'T', description: "Half-Elves often find easy camaraderie with Halflings, another marginalized group. They are more likely to form trusting relationships and find mutual understanding." },
-        "Dragonborn": { status: 'N', description: "Dragonborn tend to judge Half-Elves on their merits and adherence to codes of conduct, showing less inherent prejudice based on mixed blood compared to humans or elves." },
-        "Gnomes":     { status: 'T', description: "Gnomes are generally well-disposed towards Half-Elves, their natural curiosity often overriding prejudice. They appreciate the unique perspective Half-Elves can offer." },
+        "Dragonborn": { status: 'N', description: "Half-Elves know that the Dragonborn can be surprisingly fair judges, valuing merit over blood, offering a path to respect denied elsewhere. showing less inherent prejudice based on mixed blood compared to humans or elves." },
+        "Gnomes":     { status: 'T', description: "Half-Elves are generally well-disposed towards Gnomes, their natural curiosity often overriding prejudice in refreshing. They appreciate the unique perspective Gnomes can offer." },
         "Half-Orcs":  { status: 'N', description: "Half-Elves can find some common ground with Half-Orcs as fellow outcasts due to mixed heritage, though the Half-Orc's rougher nature and reputation can still be a barrier." },
         "Tieflings":  { status: 'N', description: "Half-Elves understand being an outcast, but the palpable infernal aspect of Tieflings often creates a line of fear or distrust, though wary alliances of shared hardship are possible." }
     },
     "Half-Orcs": {
         "Humans":     { status: 'H', description: "Half-Orcs face constant oppression and fear from humans. They often react with internalized hatred, violent defiance, or a desperate, usually futile, desire for acceptance." },
-        "Elves":      { status: 'H', description: "Elves generally despise Half-Orcs for their 'brutishness' and orcish heritage. Interactions are almost universally hostile, dismissive, or based on exploitation." },
-        "Dwarves":    { status: 'H', description: "Dwarves see Half-Orcs as inherent threats, tainted by their orcish blood. They are met with violence or deep suspicion, rarely offered any quarter." },
+        "Elves":      { status: 'H', description: "Elves are fragile, arrogant targets who think they're superior. Their lands and possessions are ripe for taking by the strong. Interactions are almost universally hostile, dismissive, or based on exploitation." },
+        "Dwarves":    { status: 'H', description: "Half-Orcs see Dwarves as stubborn, greedy hoarders sitting on valuable territory/resources. Obstacles to be overcome by strength. They are met with violence or deep suspicion, rarely offered any quarter." },
         "Halflings":  { status: 'N', description: "Half-Orcs easily intimidate Halflings, who usually try to avoid them or placate them if interaction is unavoidable. Exploitation can go both ways if a Half-Orc is cunning." },
         "Dragonborn": { status: 'T', description: "Half-Orcs can earn a measure of respect from Dragonborn through proven strength and martial prowess, though their orcish blood may still be a point of contention or distrust for some clans." },
         "Gnomes":     { status: 'H', description: "Half-Orcs often unintentionally intimidate Gnomes, leading to Gnomes fleeing or reacting with panicked (and usually ineffective) defenses. Misunderstandings are frequent." },
@@ -84,12 +84,12 @@ const RELATIONS = {
     },
     "Tieflings": {
         "Humans":     { status: 'H', description: "Tieflings face universal persecution from humans, who hunt, fear, and scapegoat them for their infernal heritage. Survival often means constant vigilance and hiding their nature." },
-        "Elves":      { status: 'H', description: "Elves revile Tieflings as impure, unholy, and antithetical to all elven ideals of light and nature. There is no tolerance, only condemnation." },
-        "Dwarves":    { status: 'H', description: "Dwarves deeply distrust and fear Tieflings, seeing them as inherently evil, unlucky, and agents of dark powers that threaten their strongholds from within and without." },
-        "Halflings":  { status: 'H', description: "Even Halflings, often oppressed themselves, tend to fear and shun Tieflings due to widespread superstition and the palpable dread their appearance often inspires." },
-        "Dragonborn": { status: 'H', description: "Tieflings' infernal nature is anathema to most Dragonborn codes and beliefs, especially those tied to good or lawful draconic deities. They are seen as fundamentally corrupt." },
-        "Gnomes":     { status: 'H', description: "Gnomes react to Tieflings with extreme fear, though a morbid curiosity might exist. Any interaction would be fraught with terror on the gnomish side." },
-        "Half-Elves": { status: 'N', description: "While Half-Elves might possess some empathy for being an outcast, the potent infernal taint of Tieflings is usually a powerful deterrent to open acceptance or trust." },
+        "Elves":      { status: 'H', description: "Tieflings see Elves as hypocritical purists, quick to judge and persecute based on bloodline while claiming enlightenment. Their arrogance is galling. There is no tolerance, only condemnation." },
+        "Dwarves":    { status: 'H', description: "Tieflings see Dwarves as superstitious, stubborn fools blinded by tradition, quick to persecute based on appearance. Their judgment is worthless." },
+        "Halflings":  { status: 'H', description: "Tieflings, despite sharing marginalization, often see Halflings join the chorus of fear and superstition. Their betrayal of shared status stings." },
+        "Dragonborn": { status: 'H', description: "Dragonborn wrap their prejudice in self-righteous codes of honor. Their judgment is rigid, unforgiving, and hypocritical. They are seen as fundamentally flawed." },
+        "Gnomes":     { status: 'H', description: "Gnomes' intense curiosity feels like being treated as a specimen, potentially leading to dangerous experiments or unwanted attention. Wary." },
+        "Half-Elves": { status: 'N', description: "Half-Elves get a taste of prejudice but can often pass or find niches. They rarely understand the true depth of fear Tieflings face and often prioritize their own safety over solidarity." },
         "Half-Orcs":  { status: 'T', description: "Tieflings may find the least judgment among Half-Orcs, as both are heavily feared and ostracized. This can lead to brutal, pragmatic alliances born of shared desperation rather than true friendship." }
     }
 };
